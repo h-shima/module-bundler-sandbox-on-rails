@@ -1,5 +1,9 @@
 {
   "name": "module-bundler-sandbox-on-rails",
+  "scripts": {
+    "dev": "webpack --progress",
+    "watch": "webpack --progress --watch"
+  },
   "private": true,
   "dependencies": {
     "@rails/webpacker": "4.3.0"
